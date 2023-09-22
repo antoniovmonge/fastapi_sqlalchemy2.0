@@ -28,7 +28,6 @@ target_metadata = models.Base.metadata
 # can be acquired:
 # my_important_option = config.get_main_option("my_important_option")
 # ... etc.
-
 from config import Config
 
 config.set_main_option("sqlalchemy.url", Config.DB_CONFIG)
